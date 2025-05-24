@@ -43,6 +43,6 @@ if st.button("Start"):
 
     # Tampilkan hasil
     if prediction == 1:
-        st.error("Result: Positif Diabetes (1)")
+        st.error("Result: Positive Diabetes (1)")
     else:
-        st.success("Result: Negatif Diabetes (0)")
+        st.success("Result: Negative Diabetes (0)")

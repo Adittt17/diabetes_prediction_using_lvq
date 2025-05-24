@@ -21,12 +21,12 @@ st.title("Diabetes Prediction Using LVQ")
 
 # Input fitur dari pengguna
 pregnancies = st.number_input("Pregnancies", min_value=0.0, step=1.0)
-glucose = st.number_input("Glucose min_value=0.0)
-blood_pressure = st.number_input("BloodPressure min_value=0.0)
-skin_thickness = st.number_input("SkinThickness min_value=0.0)
-insulin = st.number_input("Insulin min_value=0.0)
-bmi = st.number_input("BMI min_value=0.0)
-dpf = st.number_input("DiabetesPedigreeFunction min_value=0.0)
+glucose = st.number_input("Glucose", min_value=0.0)
+blood_pressure = st.number_input("BloodPressure", min_value=0.0)
+skin_thickness = st.number_input("SkinThickness", min_value=0.0)
+insulin = st.number_input("Insulin", min_value=0.0)
+bmi = st.number_input("BMI", min_value=0.0)
+dpf = st.number_input("DiabetesPedigreeFunction", min_value=0.0)
 
 # Tombol prediksi
 if st.button("Start"):

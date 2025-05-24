@@ -9,6 +9,9 @@ This is a simple web-based application built with **Streamlit** that predicts th
 - Real-time prediction result with clear output.
 - Lightweight and easy to deploy.
 
+⚠️ **Model Accuracy:**  
+The current LVQ model achieves an accuracy of **71%** on test data. While this shows initial promise, we plan to improve performance in future iterations through better preprocessing, feature selection, or alternative model architectures.
+
 ## 🧬 About LVQ (Learning Vector Quantization)
 
 **Learning Vector Quantization (LVQ)** is a prototype-based supervised classification algorithm. It uses a set of codebook vectors (also called weights) to represent class prototypes in the feature space. During prediction, the algorithm calculates the distance between an input and these prototypes and assigns the input to the class of the nearest prototype.
